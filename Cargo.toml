@@ -9,3 +9,7 @@ edition = "2018"
 socket2 = "^0.3.17"
 anyhow = "1.0.42"
 structopt = "0.3.22"
+
+[profile.release]
+lto = true
+
